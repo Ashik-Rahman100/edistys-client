@@ -2,7 +2,7 @@ import Image from "next/image";
 import SectionTitle from "../Common/SectionTitle";
 import SingleTestimonial from "./SingleTestimonial";
 
-const testimonialData = [
+const philosophyData = [
   {
     id: 1,
     name: "Full-suite solutions",
@@ -49,7 +49,7 @@ const Testimonials = () => {
         </div>
 
         <div className="mt-[60px] flex flex-wrap gap-y-8 lg:mt-20">
-          {testimonialData.map((testimonial, i) => (
+          {philosophyData.map((testimonial, i) => (
             <SingleTestimonial key={i} testimonial={testimonial} />
           ))}
         </div>
