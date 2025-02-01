@@ -8,7 +8,6 @@ import { SessionProvider } from "next-auth/react";
 import { ThemeProvider } from "next-themes";
 import { useEffect, useState } from "react";
 import "../styles/index.css";
-import "../styles/prism-vsc-dark-plus.css";
 
 export default function RootLayout({
   children,
