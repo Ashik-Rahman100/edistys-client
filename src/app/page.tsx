@@ -1,8 +1,8 @@
-import About from "@/components/About";
 import CallToAction from "@/components/CallToAction";
 import Clients from "@/components/Clients";
 import ScrollUp from "@/components/Common/ScrollUp";
 import Features from "@/components/Features";
+import Finance from "@/components/Finance";
 import Hero from "@/components/Hero";
 import Testimonials from "@/components/Testimonials";
 import { Metadata } from "next";
@@ -20,11 +20,7 @@ export default function Home() {
       <Hero />
       <Features />
       <Testimonials />
-      <About />
-      {/* <CallToAction /> */}
-      {/* <Team /> */}
-      {/* <HomeBlogSection posts={posts} /> */}
-      {/* <Contact /> */}
+      <Finance />
       <Clients />
       <CallToAction />
     </main>

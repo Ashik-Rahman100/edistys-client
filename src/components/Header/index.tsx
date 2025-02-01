@@ -267,7 +267,7 @@ const Header = () => {
                       : "border text-white hover:bg-white hover:text-primary "
                   }`}
                 >
-                  Sign Up
+                  Contact Us
                 </Link>
                 {/* theme toggler */}
                 {/* <button
